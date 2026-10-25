@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import '../globals.css';
+import './override.css';
 
 export const metadata: Metadata = {
   title: 'Jubayer — AI Developer',
