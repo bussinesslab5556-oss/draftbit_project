@@ -1,0 +1,20 @@
+:root {
+  --page-shell: min(calc(100% - 52px), var(--max));
+}
+
+.section-wrap,
+.site-header,
+.trust-inner,
+.footer-main,
+.resume-inner {
+  width: var(--page-shell);
+  max-width: var(--max);
+  margin-inline: auto;
+}
+
+.site-header,
+.trust-inner,
+.footer-main,
+.resume-inner {
+  padding-inline: 26px;
+}
